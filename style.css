@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: azure;
+}
+
+.container{
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 800px;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+}
+
+.img{
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top{
+    background: burlywood;
+    width: 1000px;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    top: 2.5%;
+    left: 20%;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.top a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.top a:hover{
+    color: green;
+}
+
+.top-1{
+    background: burlywood;
+    display: flex;
+    gap: 2.5rem;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+} 
+
+
+.top-1 a{
+    text-transform: uppercase;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* .top-1 a{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+} */
+
+
+.top-1 a:hover{
+    color: green;
+}  
+
+
+.w{
+    margin-top: 120px;
+    margin-left: 450px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 550px;
+    margin-bottom: 25px;
+}
+
+.w-1{
+    position: absolute;
+    left: 16%;
+    max-width: 950px;
+    margin-bottom: 20px;
+}
+
+.m-1{
+    position: absolute;
+    top: 59%;
+    left: 16%;
+    margin-bottom: 25px;
+    max-width: 950px;
+}
+
+.pre{
+    position: absolute;
+    top: 75%;
+    left: 16%;
+    margin-bottom: 25px;
+    max-width: 950px;
+}
+
+.read{
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background: green;
+    position: absolute;
+    top: 93%;
+    left: 43%;
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.read a{
+    color: white;
+    text-decoration: none;
+}
+
+.our{
+    font-size: 18px;
+    position: absolute;
+    top: 115%;
+    left: 41%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.t-grid{
+    margin-top: 20px;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 120%;
+    left: 5%;
+}
+
+.rm{
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    background: green;
+    text-transform: uppercase;
+}
+
+.rm a{
+    text-decoration: none;
+    color: white;
+}
+
+.cop{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.lei{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gr{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gift{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.why{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+.i{
+    background: orange;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 205%;
+    left: 12.5%;
+    max-width: 750px;
+}
+
+.name{
+    position: absolute;
+    top: 229%;
+    left: 32%;
+}
+
+.review{
+    position: absolute;
+    top: 239%;
+    left: 49%;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    background: green;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.review a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot{
+    display: flex;
+    gap: 9.5rem;
+    position: absolute;
+    top: 250%;
+    left: 5%;
+    background: orange;
+    width: 1350px;
+}
+
+.top-3{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.top-3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.top-3 a:hover{
+    color: green;
+}
+
+.top-4{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.top-4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.top-4 a:hover{
+    color: green;
+}
+
+.sub{
+    text-transform: uppercase;
+    max-width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subnow{
+    height: 75px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.subnow a{
+    text-decoration: none;
+}
+
+.copy{
+    position: absolute;
+    top: 285%;
+    left: 10%;
+}
+
+.hash{
+    font-size: 16px;
+}
+
+.hash a{
+    text-decoration: none;
+}
